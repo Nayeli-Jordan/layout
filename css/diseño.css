@@ -1,0 +1,265 @@
+.contenedor{
+	width: 700px;
+	margin: 50px auto;
+	/*border:1px solid black;*/
+	position:static;
+}
+.visible{
+	border: 2px solid gray;
+}
+.logo{
+	width:100%;
+	height:50%;
+}
+.linealarga{
+	height: 1px;
+	background-color: white;
+	border: .5px solid black;
+
+}
+#button {
+  	list-style: none;
+  	margin-left: 20px;
+  	padding: 0 5px;
+}
+#button li{
+	display:inline-block;
+	color: black;
+  	padding:0;
+  	text-decoration: none;
+  	font-size:25px;
+}
+.linmenu{
+	border-left: 1px solid black; 
+	width:1px; 
+	height:20px; 
+	margin: 0 25px;
+}
+.grupo{
+	width: 100%;
+	height: 500px;
+	margin: 30px auto;
+}
+.texlab{
+	width: 500px;
+	margin: 30px auto;
+	/*border:1px solid black;*/
+	text-align: center;
+	font-size: 30px;
+}
+.linea{
+	width: 70px;
+	height: 5px;
+}
+.lineagris{
+	background-color: gray;
+	margin:0 auto;
+}
+.lineanegra{
+	background-color: black;
+	margin-left: 0;
+}
+img{
+	width:200px;
+	height:200px;
+	/*opacity: 0.95;*/
+	position: static;
+}
+.bloque{
+	width:200;
+	height:200px;
+	float:left;
+	padding: 30px 30px 0 0;
+	/*border: 1px solid green;*/
+}
+.cuadro{
+	width: 100%;
+	/*border: 1px solid red;*/
+}
+.clearfix:before, .clearfix:after{
+	content: "";
+	display:table;
+}
+.clearfix:after{
+	clear: both;
+}
+.texto{
+	position: relative;
+	/*font-weight:bold; Negritas*/
+	color:white;
+	font-size: 16px;
+	z-index: 1;
+	bottom: 30px;
+	left: 60px;
+}
+/*.subra{
+	text-decoration: underline;               *REVISIÓN
+}*/
+
+
+
+.circulo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin:50px 275px;
+}
+/*.circular{ 
+	width: 200px; 
+	height: 200px; 
+	border-radius: 50%; 
+	****-webkit-****border-radius: 50%; 		<----- No parece tener cambios por ponerlos o quitarlos
+	****-moz-border-*****radius: 50%; 											
+	background: url(img/profile-1.png) no-repeat; 
+} */
+.centro{
+	margin: -40px 0 0 220px;
+}
+.texcoder{
+	width: 600px;
+	margin: 30px auto;
+	/*border:1px solid black;*/
+	text-align: center;
+	font-size: 20px;
+}
+.programa{
+	height: 40px;
+	background-color: gray;
+	color:white;
+	font-size: 20px;
+	margin-left: 35px;
+	padding: 20px 0 0 10px;
+}
+.p1{
+	width: 80%;
+}
+.p2{
+	width: 60%;
+}
+.p3{
+	width: 40%;
+}
+.margen{
+	margin: 25px;
+}
+.portaimg{
+	width:180px;
+	height:120px;
+	/*opacity: 0.95;*/
+	position: static;
+}
+.portacuadro{
+	width: 640px;
+	margin-left: 55px;
+	/*border: 1px solid black;*/
+}
+.portabloque{
+	width:180px;
+	height:140px;
+	float:left;
+	padding: 0 30px 30px 0;
+}
+
+.normal{
+	text-decoration: none;			/*Para quitar el subrayado de los hipervínculos*/
+	color: black;
+}
+
+.formulario{
+	-moz-box-shadow:inset 0px 1px 0px 0px #151515;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #151515;
+    box-shadow: #F3E2A9 0 0px 20px -1px;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #F5ECCE), color-stop(1, white) );
+    background:-moz-linear-gradient( center top, #F5ECCE 5%, white 100% );
+    background-color:#848484;
+    border-radius:9px;
+    -webkit-border-radius:9px;
+    -moz-border-border-radius:9px;
+    /*border:1px solid #ee1eb5;*/
+    display:inline-block;
+    color:#2E2E2E;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    line-height: 30px;
+    width:60%;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #BDBDBD;
+    padding:30px;
+    margin: 0 20% 0 15%;
+}
+.forma{
+	height: 15px;
+	padding:5px;
+	margin-left: 20px;
+}
+.nombre{
+	width: 40%;
+}
+.mail{
+	width: 43%;
+}
+.mensaje{
+	width: 95%;
+	height: 70px;
+	padding:10px;
+}
+.enviar{
+	-moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+    box-shadow:inset 0px 1px 0px 0px #fbafe3;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FB8D2D), color-stop(1, #FBC12D) );
+    background:-moz-linear-gradient( center top, #FB8D2D 5%, #FBC12D 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d');
+    background-color:#ff5bb0;
+    border-radius:9px;
+    -webkit-border-radius:9px;
+    -moz-border-border-radius:9px;
+    border:1px solid #F07305;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height: 40px;
+    line-height: 30px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #c70067;
+}
+
+.ico{
+	width: 30px;
+	height:30px;
+	margin: 20px 0 20px 620px;
+}
+
+/*.triangulo {
+     width: 0; 
+     height: 0; 
+     border-right: 30px solid #FFBF00;
+     border-top: 15px solid transparent;
+     border-bottom: 15px solid transparent; 
+     z-index: 1;
+     position: relative;
+     margin:20px 0 20px 60px;
+}
+.trianguloarriba{
+     width: 0; 
+     height: 0; 
+     border-bottom: 25px solid #FFBF00;
+     border-left: 12.5px solid transparent;
+     border-right: 12.5px solid transparent; 
+     z-index: 1;
+     position: relative;
+     margin:30px 0 10px 660px;
+}*/
+/*	favicon
+	hipervinculo entre páginas
+<a href="#1"></a> es el vinculo: ;				<a id="1"></a> es a dónde va  NO FUNCIONA
+
+	*/
+

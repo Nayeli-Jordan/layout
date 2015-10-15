@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Primer Layout</title>
+		<link rel= "stylesheet" type="text/css" href="css/diseño.css">
+	</head>
+	<body class="contenedor">
+		<img class="logo" src="img/logo.png"/>
+		<br></br>
+		<hr class="linealarga"></hr>
+		<span>
+			<ul id="button">
+				<li><a href="Layout.html" class="normal">Inicio</a></li>
+				<li class="linmenu"></li>
+				<li>Sobre Nosotros</li>
+				<li class="linmenu"></li>
+				<li><a href="Layout.html#Nuestras" class="normal">Nuestras Coders</a></li>
+				<li class="linmenu"></li>
+				<li><a href="Layout.html#contacto" class="normal"> Contacto</a></li>
+			</ul>
+		</span>
+		<hr class="linealarga"></hr>
+		<img class="grupo" src="img/grupal.jpg">
+		<hr class="lineagris linea"></hr>
+		<p class="texlab">Laboratoria existe para encontrar jóvenes mujeres con potencial pero sin acceso a educación superior de calidad, y
+		transformarlas en talentosas desarrolladoras web, que sirven clientes locales e internacionales con soluciones digitales de excelente calidad</p>
+		<hr class="lineagris linea"></hr>
+		<h2><a id="Nuestras">Nuestras coders</a></h2>
+		<hr class="lineanegra linea"></hr>
+		<div class="cuadro">
+			<div class="clearfix">
+				<div class="bloque">
+					<img src="img/profile-1.png"/>
+					<a href="Coder.html"><div title="Coder 1" class="texto subra">Nombre Y Apellido</div></a>   <!--TITLE para mostrar cuadros 															transparentes con info de la sección que este tocando el cursor-->
+				</div>
+				<div class="bloque">
+					<img src="img/profile-2.png"/>
+					<div title="Coder 2" class="texto">Nombre Y Apellido</div>
+				</div>
+				<div class="bloque">
+					<img src="img/profile-3.png"/>
+					<div title="Coder 3" class="texto">Nombre Y Apellido</div>
+				</div>	
+			</div>
+			<div class="clearfix">
+				<div class="bloque">
+					<img src="img/profile-4.png"/>
+					<div title="Coder 4" class="texto">Nombre Y Apellido</div>
+				</div>
+				<div class="bloque">
+					<img src="img/profile-5.png"/>
+					<div title="Coder 5" class="texto">Nombre Y Apellido</div>
+				</div>
+				<div class="bloque">
+					<img src="img/profile-6.png"/>
+					<div title="Coder 6" class="texto">Nombre Y Apellido</div>
+				</div>	
+			</div>
+		</div>
+		<br></br>
+		<br></br>
+		<div class="formulario">
+			<form action="" method="post" >
+				<div id="contacto">Contacto</div>
+				<hr></hr>
+					<label>
+						<p></p>
+					    <span class="cursiva negrita">Nombre:</span>
+					    <input class="nombre forma" id="email" type="email" name="email" placeholder="Nombre" />
+					</label>
+				    <label>
+				    	<p></p>
+					    <span class="cursiva negrita">e-mail:</span>
+					    <input class="mail forma" id="email" type="email" name="email" placeholder="Email Address" />
+					</label>
+				    <label>
+				    	<p></p>
+				        <div class="negrita">Pregunta o comentario:</div>
+				        <textarea class="mensaje" id="message" name="message" placeholder="Mensaje"></textarea>
+				    </label>   
+				    <label>
+				    	<br></br>
+				        <span>&nbsp;</span>   						<!--Sirve para dar espacios, lineas en blanco-->
+				        <a href=""><input type="button" class="enviar" value="Enviar" /></a>
+				    </label>   
+			</form>
+		</div>
+		<a href="Layout.html"><img class="ico" src="img/icono.png"/></a>
+	</body>
+</html>
